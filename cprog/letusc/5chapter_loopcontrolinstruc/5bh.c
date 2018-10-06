@@ -9,7 +9,7 @@ int main()
    scanf("%d", &num);
    z = num;
    
-   while(z>0 || z<0)
+   while(z != 0)
    {
       p = z%8; //p = remainder
       z = z/8; //z = quotient
